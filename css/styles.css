@@ -1,0 +1,119 @@
+body{
+    background-color: transparent; 
+    background-image: url("../imagenes/fondo.png");
+}
+label{
+font-family: "Times New Roman", serif;
+font-size: 13pt;
+color: black;
+//text-transform: uppercase;
+
+}
+
+#pdf {
+ height: 550px;
+display: none;
+}
+.d,.e,.f,.x,.y,.z {
+    display: none;
+}
+.container{
+    margin-top: 70px;
+    width: 100%;
+   
+}
+.container_doc{
+    margin: 30px;
+    width: 95%;
+   
+}
+.imagen{
+    display: none;
+}
+.opcional {
+    display: none;
+}
+#form_nuevo,#form_antiguo,#editar_nuevo{
+    display: none;
+}
+
+@media screen and (min-width:480px){
+    #form_nuevo,#form_antiguo{
+   // overflow: scroll;
+   // height: 600px;
+    
+    }
+    .opcional {
+    overflow: scroll;
+    height: 550px;
+    }
+}
+.center-block  {
+    width: 160px;
+     
+}
+.row-centered {
+    text-align:center;
+}
+.bg-primary{
+    background-color: dimgrey;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    
+}
+.footer {
+    position: relative;
+    margin-bottom: -90%;
+    margin-top: -90%; 
+    height: 30px;
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+    
+.estilow{
+    height: 300px;
+    
+}
+.popup {
+    background-color: darkgray;
+    color: #888888;
+    height: auto;
+    left: auto;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 550px;
+    z-index: 101;
+    -moz-box-shadow: 0px 0px 10px 1px #888888;
+    -webkit-box-shadow: 0px 0px 10px 1px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+.overlay {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity:0.5;
+}
+
+a.close {
+    background: url("/imagenes/cerrar30.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    left: 45px;
+    position: relative;
+    top: -25px;
+    width: 26px;
+}
+
